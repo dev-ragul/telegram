@@ -11,7 +11,7 @@ gem 'httpclient'
 gem 'shorturl'
 
 # Use sqlite3 as the database for Active Record
-group :devlopment, :test do
+group :development, :test do
   gem 'sqlite3', '~> 1.3.0'
 end
 
